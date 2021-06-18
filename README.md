@@ -8,10 +8,11 @@
 #### Most of the companies grew in 2017, aside from TERP. DAQO (DQ) grew the most in 2017 with a growth of 199.4%. This might lead Steve's parents to want to invest in this company, but the 2018 data shows that this is not the wisest decision. As aforementioned, only ENPH and RUN continued to grow into 2018. DQ took a particularly hard hit with a decrease of 62.6%.
 ---
 #### The original code was refactored in this project. The purpose of refactoring is to make the code work faster and continue to work with the addition of new code that might have messed up the original code. This code was refactored by adding arrays to store all the values in the loops, rather than single variables, which would then be called on after the calculation loop had finished to print all values almost at once.
-![Pre Refraction 2017](https://user-images.githubusercontent.com/85752084/122598394-0241c280-d02a-11eb-9a33-4a5c64984b5d.PNG) ![VBA Challenge 2017](https://user-images.githubusercontent.com/85752084/122598405-053cb300-d02a-11eb-9a0d-a194f765735d.PNG)
+![Pre Refraction 2017](https://user-images.githubusercontent.com/85752084/122598990-da069380-d02a-11eb-998a-bf2f4bc3caa5.png)
+![VBA Challenge 2017](https://user-images.githubusercontent.com/85752084/122598405-053cb300-d02a-11eb-9a0d-a194f765735d.PNG)
 
 #### Before refactoring the code, to run the 2017 data, it took 0.742 seconds. After refactoring the code, the 2017 data took 0.594 seconds. This is a decrease of 24.9%. In this code, the data table is relatively small, so 24.9% does not affect the time much, but in a data set that is much larger, this could take the time it takes to run the code from a couple of seconds to less than a second, which is substantial.
-![Pre Refraction 2018](https://user-images.githubusercontent.com/85752084/122598401-040b8600-d02a-11eb-8c66-8f80d1c0a673.PNG)
+![Pre Refraction 2018](https://user-images.githubusercontent.com/85752084/122598994-dbd05700-d02a-11eb-9fc0-78208458366a.png)
 ![VBA Challenge 2018](https://user-images.githubusercontent.com/85752084/122598411-066de000-d02a-11eb-9587-329d5b3710a6.PNG)
 #### Before refactoring the code, to run the 2018 code, it took 0.875 seconds. After refactoring the code, the 2018 data took 0.586 seconds. This is a decrease of 49.3%. This difference is enough to make a code that runs for 2 seconds take 1 second. A 50% refactoring rate is very substantial when looking at a very large data set.
 #### In addition, during the refactoring process, an error handler was added. If an incorrect year was inputted, the following code would run at the beginning:
