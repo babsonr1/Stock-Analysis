@@ -4,13 +4,11 @@
 ---
 ## Results
 #### For Steve and his parents, the best choice of stocks was not DAQO. While DAQO had almost a 200% growth in 2017, with more recent data from 2018, the stock stumbled 63%. When looking at stocks, the progression of the company is important to keep in mind, so proving DAQO was not doing well in 2018 shows that Steve should move his funds. The most logical stocks for Steve to purchase would be ENPH and RUN. ENPH grew 129.5% in 2017 and 81.9% in 2018. RUN grew 5.5% in 2017 and 84.0% in 2018. These are the only two companies that grew in both fiscal years. This data can be seen in the below tables.
-Tables.
-#### Most of the companies grew in 2017, aside from TERP. DAQO (DQ) grew the most in 2017 with a growth of 199.4%. This might lead Steve's parents to want to invest in this company, but the 2018 data shows that this is not the wisest decision.
-Tables.
-#### As aforementioned, only ENPH and RUN continued to grow into 2018. DQ took a particularly hard hit with a decrease of 62.6%.
+![2017 Data](https://user-images.githubusercontent.com/85752084/122598377-fce47800-d029-11eb-9554-05799efb7a2a.PNG) ![2018 Data](https://user-images.githubusercontent.com/85752084/122598391-0077ff00-d02a-11eb-9733-af53b5f2454c.PNG)
+#### Most of the companies grew in 2017, aside from TERP. DAQO (DQ) grew the most in 2017 with a growth of 199.4%. This might lead Steve's parents to want to invest in this company, but the 2018 data shows that this is not the wisest decision. As aforementioned, only ENPH and RUN continued to grow into 2018. DQ took a particularly hard hit with a decrease of 62.6%.
 ---
 #### The original code was refactored in this project. The purpose of refactoring is to make the code work faster and continue to work with the addition of new code that might have messed up the original code. This code was refactored by adding arrays to store all the values in the loops, rather than single variables, which would then be called on after the calculation loop had finished to print all values almost at once.
-2017 Timer Photos
+
 #### Before refactoring the code, to run the 2017 data, it took 0.742 seconds.
 2017 Timer Photos
 #### After refactoring the code, the 2017 data took 0.594 seconds. This is a decrease of 24.9%. In this code, the data table is relatively small, so 24.9% does not affect the time much, but in a data set that is much larger, this could take the time it takes to run the code from a couple of seconds to less than a second, which is substantial.
